@@ -1,0 +1,15 @@
+1. Limpiar directorios temporales de Respin (opcional):
+	-Ejecutar comando:
+		sudo respin clean
+
+2. Crear livecd/dvd distribuible (solo filesystem)
+	-Ejecutar comando:
+		sudo respin dist cdfs
+		//Esto puede tardar bastante tiempo si tu ordenador es lento
+
+3. Crear el .iso file:
+	//Este paso solo funciona si ya creamos el filesystem del inciso 2
+	-Ejecutar comando:
+		sudo respin dist iso navi.iso
+		//Puedes usar de la forma: sudo respin dist iso <distro_name>.iso
+	-Luego de que termine el proceso ve a: /home/respin/respin y podras encontrar tu archivo .iso

@@ -1,0 +1,13 @@
+1. Instalación de Linux Respin (Ubuntu Xenial 16.04):
+	-Usar los siguientes comandos:
+		sudo add-apt-repository ppa:sergiomejia666/respin
+		sudo add-apt-repository ppa:sergiomejia666/xresprobe
+		sudo apt-get update
+		sudo apt-get install xresprobe respin isolinux
+
+2. Verificar instalación:
+	-Ejecutar comando:
+		sudo respin
+		//Debería de aparecer información en la consola acerca de las opciones que tenemos con respin
+
+

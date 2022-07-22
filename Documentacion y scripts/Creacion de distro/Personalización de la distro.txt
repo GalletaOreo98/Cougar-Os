@@ -1,0 +1,47 @@
+1. Gnome tweak:
+	-Ir a aplicación "Ubuntu software", buscar e instalar "Tweak Tool"
+
+2. Temas: 
+	-Ir a https://www.noobslab.com/p/themes-icons.html (Ubuntu 16.04 Xenial Themes)
+	-Descargar "Paper Gtk Theme" e instalar.
+	//O podemos directamente seguir los comandos:
+		sudo add-apt-repository ppa:snwh/pulp
+		sudo apt-get update
+		sudo apt-get install paper-gtk-theme
+		sudo apt-get install paper-icon-theme
+	-Luego abrir "Tweak Tool" y cambiar el aspecto con nuestros temas descargados (En pestaña "Apariencia")
+
+3. Fondo de escritorio:
+	-Usar los siguientes comandos:
+		//Es importante tener el modo root# antes de el comando "nautilus" asi que:
+		sudo su
+		//ingresar contraseña 
+		nautilus
+		//Es posible que aparezcan mensajes de error en la terminal, pero eso no importa
+		//luego se abrirá el explorador de archivos en modo privilegiado
+	-Ir a la ruta /usr/share/backgrounds y pegar nuestra imagen alli
+	-Abrir "Tweak Tool" e ir al la pestaña "Escritorio" y seleccionar la imagen 
+	(Es posible que tengamos que reiniciar o esperar un poco para ver los cambios)
+
+4. Logo:
+	-Entrar al explorador de archivos en modo privilegiado (como en el inciso 3 con comando "nautilus")
+	-Ir a la ruta /usr/share/unity-control-center/ui y pegar la imagen del logo que usaremos
+	-Buscar la imagen llamada "UbuntuLogo.png" y renombrarla o eliminarla, luego renombramos nuestra imagen logo
+	a "UbuntuLogo" y listo, podemos ir a la app "configuracion del sistema" y en "detalles" veremos nuestro logo
+
+5. Splash Screen, bandages y marcas de agua:
+	-En /usr/share/plymouth/themes/ puedes cambiar logos de inicio
+	-Puedes instalar la app "dconf" con el comando: 
+		sudo apt-get install dconf-tools
+		//Esta app es para configurar backgrounds y marcas de agua, entre otras cosas...
+		//En la columna de la izquierda de la app navegamos: com -> Canonical -> unity-greeter 
+		//Draw-grid: es la marca de agua de Ubuntu, la podemos desactivar
+	-Puedes modificar la marca de agua en la ruta /usr/share/unity-greeter y poner tu propia imagen
+	-Puedes modificar bandages en /usr/share/unity/icons
+		
+		
+	
+	
+	
+
+	
