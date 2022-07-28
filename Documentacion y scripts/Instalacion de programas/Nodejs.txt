@@ -1,0 +1,13 @@
+// instalacion de la ultima version de nodejs
+
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash
+
+sudo apt-get install -y nodejs
+
+//verificar la version de nodejs
+
+nodejs -v
+
+//instalar npm
+
+sudo apt-get install npm
