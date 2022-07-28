@@ -1,0 +1,4 @@
+//para instalar ejecutamos en la terminal
+
+$ sudo apt install krita -y
+//esperamos a que termine, y listo.
