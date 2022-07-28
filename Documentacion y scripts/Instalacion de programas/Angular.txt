@@ -1,0 +1,19 @@
+//Para la instalacion necesitaremos cURL y node.js npm antes de instalar angular.
+
+//instalar cURL
+$sudo apt install curl
+	// verificar version 
+	$curl --version
+	
+
+//instalar node.js y npm
+$ curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+$ sudo apt-get install -y nodejs
+	//verificar version
+	$ node -v
+	$ npm -v
+	
+// Instalar angular/cli
+sudo npm install -g @angular/cli
+	//verificar version
+	$ ng version

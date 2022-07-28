@@ -1,6 +1,0 @@
-sitio web https://www.postman.com/downloads/
-
-//En terminal 
--$sudo snap install postman
-
-//al terminar el proceso, postman quedara instalado y podra ejecutarse con normalidad.
