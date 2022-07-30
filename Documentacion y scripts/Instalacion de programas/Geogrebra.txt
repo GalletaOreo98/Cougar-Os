@@ -11,4 +11,5 @@ sudo dpkg -i geogebra-classic_6.0.666.0-202109211234_am64.deb
 
 //En caso de querer instalar geogebra 4 ingresar el siguiente comando:
 
-sudo apt install geogebra 
+sudo apt install geogebra
+
