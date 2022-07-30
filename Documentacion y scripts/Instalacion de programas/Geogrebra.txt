@@ -1,0 +1,14 @@
+// 1) Descargar geogebra classic 6 del siguiente link:
+https://www.geogebra.org/download/deb.php?arch=amd64&ver=6
+
+// 2)Abrir la terminal desde donde se guarde la descarga
+
+// 3)Ingresar el siguiente comando en la terminal:
+
+sudo dpkg -i geogebra-classic_6.0.666.0-202109211234_am64.deb
+
+//listo 
+
+//En caso de querer instalar geogebra 4 ingresar el siguiente comando:
+
+sudo apt install geogebra 
