@@ -1,8 +1,7 @@
 //instalacion de notepadqq
+sudo apt update 
 
-sudo add-apt-repository ppa:notepadd-team/notepadqq
+sudo apt install snapd 
 
-sudo apt-get update
-
-sudo apt-install notepadqq
+sudo snap install notepad-plus-plus 
 
