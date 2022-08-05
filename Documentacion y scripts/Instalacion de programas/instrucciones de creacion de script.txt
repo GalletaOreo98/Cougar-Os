@@ -1,0 +1,61 @@
+
+******Instalar crontab, ingresar al link y seguir intrucciones************** 
+	https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-es
+
+O abrir terminal y usar los camandos
+
+	sudo apt update
+	sudo apt install cron
+	sudo systemctl enable cron
+
+nos mostrara en consola
+	Output
+Synchronizing state of cron.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable cron
+
+*********CREACION DEL SCRIPT**************
+
+1)Creacion de archivo de script.sh en terminal de linux o se crea a mano
+	$ touch script.sh
+
+2)lo abrimos con un editor de texto
+
+3)insertamos las instrucciones
+	#!/bin/sh
+	sudo apt install anki
+	sudo snap install notepadqq
+	sudo rm script.sh
+	reboot			
+
+3) Darle permiso de ejecución al script, abre un Terminal y en la carpeta donde se encuentra el script digita:
+	$ sudo chmod +x script.sh
+
+*********ABRIR LA TERMINAL NUEVAMENTE**************
+	sudo nano /etc/crontab
+	
+1)al abrir la primera ves nos preguntara con que editor queremos abrir, elegir el que esta señalado por
+ <---- easiest mostrara una ventana con el editor nano
+2) navegar hasta el final e ingresar
+	* * * * * root    cd /home/gerson/Scripts && sh script.sh  
+
+*Nota se agregara la direccion donde este el script
+*Nota debe ingresar los asteriscos ya que con eso indica que se ejecutara cada minuto
+
+se guarda el archivo y esperar a que funcione
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
