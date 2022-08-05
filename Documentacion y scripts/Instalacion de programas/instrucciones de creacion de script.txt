@@ -35,7 +35,7 @@ Executing: /lib/systemd/systemd-sysv-install enable cron
 	
 1)al abrir la primera ves nos preguntara con que editor queremos abrir, elegir el que esta señalado por
  <---- easiest mostrara una ventana con el editor nano
-2) navegar hasta el final e ingresar
+2) navegar hasta el final e ingresar, ver imagen adjunta en el repocitorio
 	* * * * * root    cd /home/gerson/Scripts && sh script.sh  
 
 *Nota se agregara la direccion donde este el script
