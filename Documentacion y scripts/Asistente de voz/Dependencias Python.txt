@@ -1,0 +1,7 @@
+SpeechRecognition
+pyttsx3
+pyaudio
+
+//Si pyaudio da error, entoces:
+sudo apt-get install portaudio19-dev python-pyaudio
+pip install PyAudio
