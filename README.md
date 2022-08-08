@@ -2,7 +2,24 @@
 ![Cougar-Os_Logo](https://raw.githubusercontent.com/GalletaOreo98/Cougar-Os/main/Imagenes/logos%20cougar/UbuntuLogo.png "Cougar Os Logo")  
 Distribución de Linux basada en Ubuntu 16.04.7 (amd_64)  
 
-Cougar OS es una distribución de Linux enfocada a estudiantes de ingeniería en sitemas; contando con herramientas de programación, matemáticas y ofimática
+Cougar OS es una distribución de Linux enfocada a estudiantes de ingeniería en sitemas; contando con herramientas de programación, matemáticas y ofimática.  
+  
+[Descargar cougar.iso](https://drive.google.com/drive/folders/10wyrkeq3FCyjxHwGUOy_FfY6YqJn4K7G?usp=sharing)
+
+## Programas de la distro
+- Angular
+- Anki
+- Geogebra
+- Nodejs
+- Notepadqq
+- NetBeans
+- PostMan
+- PyCharm
+- Python
+- Visual studio code
+- Krita
+- Openjdk 
+- Asistente de voz
   
 ## Creación de la distro
 ### Linux Respin
