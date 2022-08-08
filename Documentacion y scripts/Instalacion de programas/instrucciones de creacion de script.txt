@@ -71,7 +71,7 @@ echo $MY_SOFT "Ya esta instalado!" >> registro.log);
 1)al abrir la primera ves nos preguntara con que editor queremos abrir, elegir el que esta señalado por
  <---- easiest mostrara una ventana con el editor nano
 2) navegar hasta el final e ingresar
-	* * * * * root    cd /home/gerson/Scripts && sh script.sh  
+	@reboot         root    cd /etc/Scripts && sh script.sh
 
 *Nota se agregara la direccion donde este el script
 *Nota debe ingresar los asteriscos ya que con eso indica que se ejecutara cada minuto
