@@ -38,7 +38,7 @@ def listen():
             if name in rec:
                 print(rec)
     except:
-        pass
+        rec=""
     return rec
 
 
