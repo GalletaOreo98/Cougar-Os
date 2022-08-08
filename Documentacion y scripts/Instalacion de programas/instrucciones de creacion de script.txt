@@ -21,14 +21,43 @@ Executing: /lib/systemd/systemd-sysv-install enable cron
 2)lo abrimos con un editor de texto
 
 3)insertamos las instrucciones
-	#!/bin/sh
-	sudo apt install anki
-	sudo snap install notepadqq
-	sudo rm script.sh
-	reboot			
+#!/bin/sh
 
-3) Darle permiso de ejecución al script, abre un Terminal y en la carpeta donde se encuentra el script digita:
-	$ sudo chmod +x script.sh
+MY_SOFT=code
+([ ! -x "$(which $MY_SOFT)" ] && echo $MY_SOFT" No Está instalado!!!!" >> registro.log;
+sudo snap install code --classic
+echo $MY_SOFT "Ya esta instalado!" >> registro.log);
+
+MY_SOFT=notepadqq
+([ ! -x "$(which $MY_SOFT)" ] && echo $MY_SOFT" No Está instalado!!!!" >> registro.log;
+sudo snap install $MY_SOFT
+echo $MY_SOFT "Ya esta instalado!" >> registro.log);
+
+MY_SOFT=geogebra
+([ ! -x "$(command -v $MY_SOFT)" ] && echo $MY_SOFT" No Está instalado!!!!" >> registro.log;
+sudo apt install $MY_SOFT
+echo $MY_SOFT "Ya esta instalado!" >> registro.log);
+
+MY_SOFT=anki
+([ ! -x "$(command -v $MY_SOFT)" ] && echo $MY_SOFT" No Está instalado!!!!" >> registro.log;
+sudo apt install $MY_SOFT
+echo $MY_SOFT "Ya esta instalado" >> registro.log);
+
+MY_SOFT=postman
+([ ! -x "$(which $MY_SOFT)" ] && echo $MY_SOFT" No Está instalado!!!!" >> registro.log;
+sudo snap install $MY_SOFT
+echo $MY_SOFT "Ya esta instalado!" >> registro.log);
+
+MY_SOFT=pycharm-community
+([ ! -x "$(which $MY_SOFT)" ] && echo $MY_SOFT" No Está instalado!!!!" >> registro.log;
+sudo snap install pycharm-community --classic
+echo $MY_SOFT "Ya esta instalado!" >> registro.log);
+
+MY_SOFT=krita
+([ ! -x "$(which $MY_SOFT)" ] && echo $MY_SOFT" No Está instalado!!!!" >> registro.log;
+sudo apt install $MY_SOFT -y
+echo $MY_SOFT "Ya esta instalado!" >> registro.log);
+
 
 *********ABRIR LA TERMINAL NUEVAMENTE**************
 	sudo nano /etc/crontab
